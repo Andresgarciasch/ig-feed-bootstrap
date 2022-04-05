@@ -34,7 +34,37 @@
 	font-size: 12px;
 	padding: 13px;
 	width: 428px;
+	margin-bottom: -5px;
 }
 .hashtag:before{
 	content: " #BreatheCode";
+}
+.bigbox {
+	overflow-x: hidden;
+}
+.postdiv{
+	margin-top: 5px;
+	height: 30px;
+	width: 428px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	padding-left: 10px;
+
+}
+.postdiv2{
+	margin-top: 0;
+	height: 30px;
+	width: 428px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	padding-left: 10px;
+}
+.postdiv2 span{
+	margin-left: 10px;
+	margin-right: 300px;
+	color: #bbbbbb;
 }
